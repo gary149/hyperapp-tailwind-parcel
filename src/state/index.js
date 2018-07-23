@@ -1,4 +1,4 @@
-const randInt = () =>
+const randString = () =>
   Math.random()
     .toString(36)
     .substring(3, 9)
@@ -17,5 +17,5 @@ const themes = [
 ]
 
 export default {
-  counters: [...new Array(10)].map((item, index) => ({ id: randInt(), count: 0, theme: themes[index] }))
+  counters: [...new Array(10)].map((item, index) => ({ id: randString(), count: 0, theme: themes[index] }))
 }
