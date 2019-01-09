@@ -1,6 +1,6 @@
 # Hyperapp-Tailwind-Parcel
 
-## A Stack for 🚀 front-end design/developpement in 2018.
+## A Stack for 🚀 front-end design/developpement in 2019.
 
 I want to build an app with good ux/performance and have fun while doing it:
 
