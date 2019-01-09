@@ -24,4 +24,4 @@ I want to build an app with good ux/performance and have fun while doing it:
 Just fork this repository and you are ready to go
 
 1. `npm install`
-2. `npm run start`
+2. `npm run dev`
