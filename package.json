@@ -4,18 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "serve ./dist --single",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
   },
   "author": "Victor Mustar <victor@jubiwee.com> (www.jubiwee.com)",
   "license": "ISC",
   "dependencies": {
-    "hyperapp": "^1.2.8",
-    "minireset.css": "0.0.3"
+    "hyperapp": "^1.2.9",
+    "minireset.css": "0.0.3",
+    "serve": "^10.1.1"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "babel-core": "^6.26.3",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "parcel-bundler": "^1.9.7",
-    "tailwindcss": "^0.4.3"
+    "parcel": "^1.11.0",
+    "tailwindcss": "^0.7.3"
   }
 }
