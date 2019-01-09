@@ -15,7 +15,7 @@ I want to build an app with good ux/performance and have fun while doing it:
 
 - [Hyperapp](https://github.com/hyperapp/hyperapp) - Minimal (1kb), Functional + Stateless components
 - [Tailwind](https://tailwindcss.com/docs/what-is-tailwind/) - Not a UI kit but a utility-first CSS framework
-- [Purgecss](https://github.com/FullHuman/purgecss) Remove not used css classes
+- [Purgecss](https://github.com/FullHuman/purgecss) - Remove unused css classes
 - [JSX](https://www.npmjs.com/package/babel-plugin-transform-react-jsx) - Write HTML tags inside javascript
 - [Parcel](https://parceljs.org/getting_started.html) (Bundler) - Fast, 0 config
 
