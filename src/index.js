@@ -3,7 +3,6 @@ import { Counter } from './components'
 import actions from './actions'
 import state from './state'
 import './style.css'
-import 'minireset.css'
 
 const view = (state, actions) => (
   <div class="font-sans text-2xl">
