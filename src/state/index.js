@@ -17,5 +17,5 @@ const themes = [
 ]
 
 export default {
-  counters: [...new Array(10)].map((item, index) => ({ id: randString(), count: 0, theme: themes[index] }))
+  counters: [...new Array(10)].map((item, index) => ({ id: randString(), count: 0, theme: themes[index % 10] }))
 }

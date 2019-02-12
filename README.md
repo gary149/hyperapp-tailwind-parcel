@@ -11,13 +11,16 @@ I want to build an app with good ux/performance and have fun while doing it:
 - [x] Light, fast & powerful
 - [x] [SRR](https://github.com/hyperapp/hyperapp#hydration) should be easy
 
+## Example  
+Check [Rocket Emoji](https://github.com/gary149/rocket-emoji) for a working example.
+
 ## Dependencies:
 
 - [Hyperapp](https://github.com/hyperapp/hyperapp) - Minimal (1kb), Functional + Stateless components
 - [Tailwind](https://tailwindcss.com/docs/what-is-tailwind/) - Not a UI kit but a utility-first CSS framework
+- [Parcel](https://parceljs.org/getting_started.html) (Bundler) - Fast, 0 config
 - [Purgecss](https://github.com/FullHuman/purgecss) - Remove unused css classes
 - [JSX](https://www.npmjs.com/package/babel-plugin-transform-react-jsx) - Write HTML tags inside javascript
-- [Parcel](https://parceljs.org/getting_started.html) (Bundler) - Fast, 0 config
 
 ## Usage
 
